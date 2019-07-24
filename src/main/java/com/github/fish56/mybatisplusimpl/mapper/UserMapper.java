@@ -8,5 +8,4 @@ import java.util.List;
 
 @Component
 public interface UserMapper extends BaseMapper<User> {
-    public List<User> selectByAge(Integer age);
 }
